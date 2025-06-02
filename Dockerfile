@@ -6,7 +6,7 @@ WORKDIR /app
 # Copiamos dependencias
 COPY package*.json ./
 COPY tsconfig.json ./
-COPY next.config.js ./
+COPY next.config.ts ./
 COPY public ./public
 COPY src ./src
 
